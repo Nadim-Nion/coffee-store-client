@@ -20,7 +20,7 @@ const SignUp = () => {
                 const createdTime = result.user?.metadata?.creationTime;
                 const user = { email, createdTime };
 
-                fetch('http://localhost:5000/user', {
+                fetch('https://coffee-store-server-dun-nine.vercel.app/user', {
                     method: "POST",
                     headers: {
                         'content-type': 'application/json'
