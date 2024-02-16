@@ -1,1 +1,1 @@
-# Coffee Store (Client)
+# Coffee Store (Client Side)
