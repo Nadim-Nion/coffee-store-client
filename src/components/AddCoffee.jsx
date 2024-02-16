@@ -29,15 +29,16 @@ const AddCoffee = () => {
             .then(res => res.json())
             .then(data => {
                 console.log(data);
-                if(data.insertedId){
+                if (data.insertedId) {
                     Swal.fire({
                         title: 'Success!',
                         text: 'Coffee Added Successfully',
                         icon: 'success',
                         confirmButtonText: 'Cool'
-                      })
+                    })
                 }
             })
+        form.reset();
     }
 
 
