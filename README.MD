@@ -35,9 +35,10 @@ Explore the project and elevate your coffee collection management experience tod
 
 * Firebase: https://coffee-store-client-ad2e9.web.app/
 
-* Netlify:
+* Netlify: https://coffee-store-nion.netlify.app/
 
-* Surge:
+* Surge: https://malicious-sisters.surge.sh/
+
 ## Deployment
 
 To deploy this project run
